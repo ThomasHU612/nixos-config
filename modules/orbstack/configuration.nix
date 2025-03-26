@@ -5,6 +5,8 @@
 { config, pkgs, modulesPath, ... }:
 
 {
+  programs.zsh.enable = true;
+
   imports =
     [
       # Include the default lxd configuration.
